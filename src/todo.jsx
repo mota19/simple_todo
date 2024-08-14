@@ -84,6 +84,7 @@ function Todo() {
     dispatch({ type: "update", payload: index });
   }
 
+  console.log("fdadsf");
   return (
     <div className="main-div">
       <div className="form-div">
